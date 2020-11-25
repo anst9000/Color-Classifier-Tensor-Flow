@@ -220,5 +220,5 @@ function hideLoading() {
 }
 
 function updateBodyBG() {
-  bodyElement.style.backgroundColor = `rgba(${r}, ${g}, ${b}, 1.0)`;
+  // bodyElement.style.backgroundColor = `rgba(${r}, ${g}, ${b}, 1.0)`;
 }

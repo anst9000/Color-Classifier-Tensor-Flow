@@ -4,12 +4,13 @@
   text-align: center;
   font-family: system-ui;
   transition: visibility 2s, opacity 0.5s linear;
+  background-color: #fcf2d8;
 }
 
 canvas {
   display: block;
   margin: 1em auto;
-  box-shadow: 0 0 2em rgba(0,0,0,0.2);
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
   border-radius: 1em;
 }
 
@@ -17,51 +18,72 @@ button {
   display: inline-block;
   vertical-align: middle;
   border: 0;
-  padding: .3em .5em;
+  padding: 0.3em 0.5em;
   padding-left: 0;
   font-size: 1em;
   line-height: 1.5em;
-  margin: 1em .3em;
+  margin: 1em 0.3em;
   cursor: pointer;
   border-radius: 1em;
   background-color: #efefef;
-  transition: .4s ease;
+  transition: 0.4s ease;
 }
 
 button:before {
-  content: '';
+  content: "";
   float: left;
   width: 1.5em;
   height: 1.5em;
   border-radius: 1.5em;
-  margin-right: .3em;
-  margin-left: .3em;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
 }
 
 button:focus {
   outline: none !important;
-  box-shadow: 0px 0 1em rgb(0, 99, 234), 0 0 2em #FFF;
+  box-shadow: 0px 0 1em rgb(0, 99, 234), 0 0 2em #fff;
 }
 
 button::-moz-focus-inner {
   border: 0;
 }
 
-.blue-ish:before  { background-color: blue; }
-.red-ish:before { background-color: red; }
-.green-ish:before { background-color: green; }
-.blue-ish:before { background-color: blue; }
-.orange-ish:before { background-color: orange; }
-.yellow-ish:before { background-color: yellow; }
-.pink-ish:before { background-color: pink; }
-.purple-ish:before { background-color: purple; }
-.brown-ish:before { background-color: #8B4513; }
-.grey-ish:before { background-color: grey; }
+.blue-ish:before {
+  background-color: blue;
+}
+.red-ish:before {
+  background-color: red;
+}
+.green-ish:before {
+  background-color: green;
+}
+.blue-ish:before {
+  background-color: blue;
+}
+.orange-ish:before {
+  background-color: orange;
+}
+.yellow-ish:before {
+  background-color: yellow;
+}
+.pink-ish:before {
+  background-color: pink;
+}
+.purple-ish:before {
+  background-color: purple;
+}
+.brown-ish:before {
+  background-color: #8b4513;
+}
+.grey-ish:before {
+  background-color: grey;
+}
 
 body {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%);
+  /* background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); */
+  background-color: #fcf2d8;
   user-select: none;
-  transition: background-color 1s ease-out;
+  /* transition: background-color 1s ease-out; */
 }
 
 html {
